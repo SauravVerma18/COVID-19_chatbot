@@ -1,0 +1,133 @@
+{
+  "intents": [
+    {
+      "tag": "intro",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Who are you",
+        "Is anyone there?",
+        "Hello",
+        "Can you help me?"
+      ],
+      "responses": [
+        "Hello, my name is CovidBot. I can guide you to find help and give informations about the Covid-19 pandemic. Please tell your queries."
+      ]
+    },
+    {
+      "tag": "hospitals",
+      "patterns": [
+        "Where to find treatment in Bangalore?",
+        "Which hospitals are providing treatment fo covid in Bangalore?",
+        "Where to go for treatment in Bangalore?"
+      ],
+      "responses": [
+        "Manipal Hospitals, Fortis Hospitals and Apollo Hospitals are some of the private hospitals. https://covid19.karnataka.gov.in/new-page/Designated%20Covid-19%20Hospitals/en , in this website you can find all the details"
+      ]
+    },
+    {
+      "tag": "info",
+      "patterns": [
+        "what is corona virus?",
+        "What is Covid19?"
+      ],
+      "responses": [
+        "Coronavirus disease (COVID19) is an infectious disease caused by a newly discovered coronavirus. Most people who fall sick with COVID-19 will experience mild to moderate symptoms and recover without special treatment. Covid19 is a type of corona virus"
+      ]
+    },
+    {
+      "tag": "beds",
+      "patterns": [
+        "How to check the availabilty of hospital beds?",
+        "Which hospitals are having vacant beds in Karnataka?",
+        "Where to find available hospital beds?"
+      ],
+      "responses": [
+        "https://covidbengaluru.com/, https://bbmp.gov.in/covid19.html. In these two websites, you van check the status and availability of Hospital beds."
+      ]
+    },
+    {
+      "tag": "vaccine",
+      "patterns": [
+        "what are the vaccines available?",
+        "what are the options for vaccines?"
+      ],
+      "responses": [
+        "In India, currently three vaccines are available: Covaxin, Covishield and Sputnik V."
+      ]
+    },
+    {
+      "tag": "vaccine slot",
+      "patterns":[
+        "how to book vaccine slot?",
+        "vaccinate booking website"
+      ],
+      "responses":[
+        "Vaccination slot can be booked on this website: cowin.org"
+      ]
+    },
+    {
+      "tag":"safety",
+      "patterns":["Is vaccine safe?"],
+      "responses":["Yes, it is safe. There might be some side effects but nothing serious."]
+    },
+    {
+      "tag":"casesI",
+      "patterns":[
+        "What are the number of cases in India today?",
+        "What are the total number of cases in India?",
+        "How many positive cases are there in India?"
+      ],
+      "responses":[
+        "The details of cases in the country is available in the website: https://www.covid19india.org/"
+      ]
+
+    },
+    {
+      "tag":"webs",
+      "patterns":[
+        
+        "Where to find detail information about covid and vaccines?"
+      ],
+      "responses":[
+        "The details are in the websites https://www.who.int/emergencies/diseases/novel-coronavirus-2019?gclid=EAIaIQobChMIqOqcrP358QIVhR0rCh3DFAR9EAAYASAAEgIHafD_BwE"
+      ]
+
+    },
+    {
+      "tag":"casesK",
+      "patterns":[
+        "What are the number of cases in Karnataka today?",
+        "What are the total number of cases in Karnataka?",
+        "How many positive cases are there in Karnataka?"
+      ],
+      "responses":[
+        "The details of cases in the state is available in the website: https://covid19.karnataka.gov.in/covid-dashboard/dashboard.html"
+      ]
+
+    },
+    {
+      "tag":"dv",
+      "patterns":[
+        "Please tell me the details about vaccines",
+        "What are some details about vaccine?"
+      ],
+      "responses":[
+        "The details of vaccines is avilable here: https://www.who.int/news-room/q-a-detail/coronavirus-disease-(covid-19)-vaccines?adgroupsurvey={adgroupsurvey}&gclid=EAIaIQobChMIm_jPr_r68QIVUH8rCh1aiwbNEAAYAiAAEgJyUfD_BwE"
+      ]
+
+    },
+    {
+      "tag":"variants",
+      "patterns":[
+        "What are the variants of this virus?",
+        "What are some details about vaccine?"
+      ],
+      "responses":[
+        "Delta Variant"
+      ]
+
+    }
+  
+  ]
+}
